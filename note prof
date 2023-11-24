@@ -1,0 +1,24 @@
+S'occuper de balance nos data set:
+undersampling, oversampling 
+
+stratified kfold pour garder pourcentage ( pour s'assurer qu'on a meme pourcentage de yes and no par rapport au pourcentage de départ)
+
+Penser des le debut à mettre de coté du data set la partie test et faire les cross validations pour trouver bon model sur l'autre partie data set qu'on aura séparé des le début. ( en gros on fait une nested validation géante)
+
+
+f score pour vérifer si notre modèle est bon
+
+Faire unsupervised learning pour essayer algo naif et voir si il arrive à distinger 2 clusters évidents
+
+Sur nos graphs bleus, peut etre fair ele log car on voit rien autour de 0
+
+mieux de mettre boxplot au début
+
+afficher en 2D sur cluster pour seulement la première
+
+Pour donnée non numérique on peut afficher le oui ou non ( un batonnet par value et 2 couleurs pour chaque batonnet (une couleur oui et  une couleur non)
+
+Beaucoup de valeur abberrante dans boxplot ( penser à les éliminer mettre des bornes max et mins) (gotion metrix)
+
+Pour les catégories ordinales on peut essayer de clusteriser et en faire des données classifications
+
